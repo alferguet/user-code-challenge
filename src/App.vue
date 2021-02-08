@@ -1,12 +1,25 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <b-container fluid id="app" class="h-100 px-0">
+    <b-card class="vh-100" no-body>
+      <navbar />
+      <b-card-body>
+        <router-view></router-view>
+      </b-card-body>
+      <main-footer />
+    </b-card>
+  </b-container>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import Navbar from '@/components/layout/Navbar.vue'
+import MainFooter from '@/components/layout/Footer.vue'
+export default Vue.extend({
+  name: 'App',
+  components: { Navbar, MainFooter },
+})
+</script>
+>
 
 <style>
 #app {
