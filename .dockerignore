@@ -1,0 +1,6 @@
+node_modules
+test
+nodemon*
+*.md
+**/*.spec
+dist
