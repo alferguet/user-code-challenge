@@ -4,3 +4,5 @@ nodemon*
 *.md
 **/*.spec
 dist
+*.sh
+VERSION

@@ -1,11 +1,11 @@
-import Home from '../views/Home.vue'
+import Users from '../views/Users.vue'
 import { RouteConfig } from 'vue-router'
 
 export const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Users',
+    component: Users,
   },
   {
     path: '/about',

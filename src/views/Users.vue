@@ -2,7 +2,7 @@
   <b-container fluid>
     <b-overlay :show="isLoading">
       <b-row align-h="center">
-        <b-col cols="4">
+        <b-col cols="6">
           <b-table
             id="user-table"
             :fields="fields"
@@ -72,20 +72,6 @@ export default Vue.extend({
       } finally {
         this.isLoading = false
       }
-      this.users = [
-        { id: 1, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 2, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 3, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 4, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 5, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 6, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 7, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 8, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 9, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 10, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 11, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-        { id: 12, name: 'Alejandro', email: 'afernandezh@protonmail.com' },
-      ]
     },
     createErrorToast(title: string, message: string) {
       this.$bvToast.toast(message, {
