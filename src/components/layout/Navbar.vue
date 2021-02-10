@@ -1,10 +1,10 @@
 <template>
   <b-card-header header-tag="nav">
     <b-row align-h="between">
-      <b-col cols="3">
+      <b-col cols="6">
         <h2>User Code Challenge</h2>
       </b-col>
-      <b-col cols="2">
+      <b-col cols="4">
         <b-nav card-header pills>
           <b-nav-item
             v-for="route in routes"

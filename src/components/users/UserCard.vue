@@ -1,7 +1,7 @@
 <template>
   <b-card no-body>
     <b-row align-v="center" align-h="between">
-      <b-col cols="2"
+      <b-col cols="4"
         ><b-avatar variant="primary" size="lg" :text="initials" />
       </b-col>
       <b-col cols="8">

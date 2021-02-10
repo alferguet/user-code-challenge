@@ -2,7 +2,7 @@
   <b-container fluid>
     <b-overlay :show="isLoading">
       <b-row align-h="center">
-        <b-col cols="6">
+        <b-col cols="7">
           <b-table
             id="user-table"
             :fields="fields"
