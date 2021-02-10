@@ -72,6 +72,11 @@ export default Vue.extend({
       } finally {
         this.isLoading = false
       }
+      this.users.push({
+        id: 1,
+        name: 'Alejandro Perez',
+        email: 'afernandezh@protonmail.com',
+      })
     },
     createErrorToast(title: string, message: string) {
       this.$bvToast.toast(message, {
