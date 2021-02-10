@@ -2,7 +2,7 @@
   <b-container fluid id="app" class="h-100 px-0">
     <b-card class="vh-100" no-body>
       <navbar />
-      <b-card-body>
+      <b-card-body class="vh-90 overflow-scroll">
         <router-view></router-view>
       </b-card-body>
       <main-footer />
@@ -30,16 +30,7 @@ export default Vue.extend({
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.overflow-scroll {
+  overflow: scroll;
 }
 </style>
