@@ -25,7 +25,7 @@
       </li>
       <li>Hide the API access to the user thanks to the reverse proxy</li>
       <li>
-        Reusable and manteinable code thanks to TypeScript, Eslint and Prettier
+        Reusable and mantainable code thanks to TypeScript, Eslint and Prettier
       </li>
       <li>Pagination</li>
       <li>Built to provide feedback to the user</li>

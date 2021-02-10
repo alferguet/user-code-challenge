@@ -31,6 +31,6 @@ export default Vue.extend({
 }
 
 .overflow-scroll {
-  overflow: scroll;
+  overflow-y: auto;
 }
 </style>
